@@ -1,17 +1,15 @@
 # 用法
 
 ```bash
-npm i nLogger
+# npm or yarn
+
+yarn add nirvana-logger
 ```
 
 ```js
-// es6
-import L from 'nirvana-logger';
+const L = require('nirvana-logger')('scopename');
 
-// commonjs
-const L = require('nirvana-logger')
-
-
+L('string', string, 'object', object, 'array', array, 'error object', new Error('this is error'))
 
 ```
 
